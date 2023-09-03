@@ -1,0 +1,872 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+:root {
+    --nav-color: rgb(255, 165, 0);
+    --font-color: rgb(68, 68, 68);
+    --header-fontes: rgb(55, 81, 126);
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 0px 10px;
+    flex-wrap: wrap;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0.5px 1px 10px 0.5px black;
+    top: 0px;
+    width: 100%;
+}
+
+/* ========= Header ============ */
+
+header nav .row {
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+header nav .row .menu-btn {
+    display: none;
+}
+
+header nav .row .menu-btn i {
+    font-size: 25px;
+}
+
+
+header nav .row .logo {
+    margin-right: 80px;
+}
+
+
+header nav .row .acces ul {
+    list-style: none;
+    display: flex;
+    margin: 30px;
+
+}
+
+
+header nav .row .acces ul li a {
+    text-decoration: none;
+    color: var(--font-color);
+    margin: 0px 15px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+header nav .row .acces ul li:last-child a {
+    border-radius: 25px;
+    border: 2px solid var(--nav-color);
+    padding: 7px 16px;
+    font-weight: bold;
+
+}
+
+
+/* ==================================== */
+
+/* -- Main -- */
+
+
+/* section 1 */
+main section .container {
+    width: 100%;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+main section .container .row2 {
+
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 140px;
+}
+
+main section .container .row2 .caption {
+    padding-left: 100px;
+    width: 40%;
+    margin-left: 60px;
+}
+
+
+main section .container .row2 .caption h1 {
+    font-size: 48px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+main section .container .row2 .caption p {
+    font-size: 20px;
+    color: var(--font-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+main section .container .row2 .caption .about-btn {
+    border-radius: 30px;
+    padding: 10px 0px;
+    background-color: var(--nav-color);
+    text-align: center;
+    margin-top: 50px;
+    width: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: all 0.40s;
+
+
+}
+
+main section .container .row2 .caption .about-btn:hover {
+    background-color: rgb(32, 157, 216);
+
+}
+
+
+
+main section .container .row2 .caption .about-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+main section .container .row2 .img {
+    width: 45%;
+
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+/* -------------- Img Bar ------------------ */
+
+main .nav-img .hero-img {
+    background-color: rgba(226, 226, 226, 0.575);
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 90px;
+
+
+
+
+}
+
+
+main .nav-img .hero-img .img1 {
+    filter: grayscale(1);
+    padding-left: 60px;
+    transition: all 0.5s;
+
+
+
+
+
+}
+
+main .nav-img .hero-img .img1:hover {
+    filter: none;
+    scale: 1.2;
+
+
+}
+
+
+
+main .nav-img .hero-img .img2 {
+    filter: grayscale(1);
+    transition: all 0.5s;
+    padding-left: 60px;
+}
+
+main .nav-img .hero-img .img2:hover {
+    filter: none;
+    scale: 1.2;
+}
+
+
+main .nav-img .hero-img .img3 {
+    filter: grayscale(1);
+    transition: all 0.5s;
+    padding-left: 60px;
+    padding-bottom: 15px;
+}
+
+main .nav-img .hero-img .img3:hover {
+    scale: 1.2;
+    filter: none;
+}
+
+
+main .nav-img .hero-img .img4 {
+    filter: grayscale(1);
+    transition: all 0.5s;
+    padding-left: 60px;
+}
+
+main .nav-img .hero-img .img4:hover {
+    filter: none;
+    scale: 1.2;
+}
+
+main .nav-img .hero-img .img5 {
+    filter: grayscale(1);
+    transition: all 0.5s;
+    padding-left: 60px;
+    padding-bottom: 15px;
+}
+
+main .nav-img .hero-img .img5:hover {
+    filter: none;
+    scale: 1.2;
+}
+
+main .nav-img .hero-img .img6 {
+    filter: grayscale(1);
+    transition: all 0.5s;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+main .nav-img .hero-img .img6:hover {
+    filter: none;
+    scale: 1.2;
+}
+
+/* =========================================== */
+
+
+/* ------------- HOW TO USE ?--------------- */
+
+main section .row3 {
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+
+main section .row3 .titel {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 170px;
+    color: var(--header-fontes);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 23px;
+    padding-top: 100px;
+
+}
+
+main section .row3 .titel .small-titel {
+    position: relative;
+}
+
+main section .row3 .titel .small-titel h1::before {
+    content: "";
+    background-color: gray;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    bottom: 1.5px;
+    left: calc(50% - 70px);
+}
+
+main section .row3 .titel .small-titel h1::after {
+    content: "";
+    background-color: var(--nav-color);
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    bottom: 1px;
+    left: calc(50% - 25px);
+}
+
+
+main section .row3 .use {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding-right: 230px;
+    padding-left: 190px;
+
+}
+
+
+main section .row3 .use .img-card {
+    margin-left: 50px;
+    padding-right: 30px;
+}
+
+main section .row3 .use .text-p {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--font-color);
+}
+
+main section .row3 .use .text-p .text p {
+    padding-bottom: 30px;
+}
+
+
+main section .row3 .use .text-p .text a {
+    text-decoration: none;
+    color: var(--nav-color);
+    border: 2px solid var(--nav-color);
+    border-radius: 5px;
+    padding: 10px 30px;
+
+}
+
+/* ======================================== */
+
+/* ----------- WHO ARE WE------------- */
+
+
+main section .row4 .main-who .who {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 170px;
+    color: var(--header-fontes);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 23px;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+
+
+main section .row4 .main-who .who h1::before {
+    content: "";
+    background-color: gray;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    bottom: 1.5px;
+    left: calc(50% - 70px);
+}
+
+main section .row4 .main-who .who h1::after {
+    content: "";
+    background-color: var(--nav-color);
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    bottom: 1px;
+    left: calc(50% - 25px);
+}
+
+main section .row4 .main-p {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+main section .row4 .part-p {
+    display: flex;
+    width: 100%;
+
+
+}
+
+
+
+main section .row4 .part-p .p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 20px;
+    width: 50%;
+    margin-left: 250px;
+    padding-right: 40px;
+    color: var(--font-color);
+
+
+}
+
+main section .row4 .part-p .p1 .end-p {
+    padding-bottom: 20px;
+}
+
+
+main section .row4 .part-p .p2 {
+    width: 50%;
+    margin-right: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--font-color);
+}
+
+main section .row4 .part-p .pp p {
+    padding-bottom: 30px;
+}
+
+
+main section .row4 .part-p .a a {
+    text-decoration: none;
+    color: var(--nav-color);
+    border: 2px solid var(--nav-color);
+    border-radius: 5px;
+    padding: 8px 30px;
+
+}
+
+/* ===================================== */
+
+/* ------------ CATEGORIES ----------------- */
+
+main section .row5 {
+    padding-bottom: 850px;
+}
+
+main section .row5 .CATEGORIES-text {
+    text-align: center;
+    padding-top: 100px;
+
+
+
+}
+
+main section .row5 .CATEGORIES-text h1 {
+    margin-bottom: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    color: var(--header-fontes);
+    position: relative;
+
+}
+
+main section .row5 .CATEGORIES-text h1::before {
+    content: "";
+    background-color: gray;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    bottom: 1.5px;
+    left: calc(50% - 70px);
+
+}
+
+main section .row5 .CATEGORIES-text h1::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    position: absolute;
+    bottom: 1px;
+    left: calc(60% - 155px);
+    background-color: var(--nav-color);
+}
+
+
+main section .row5 .CATEGORIES-img {
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+
+
+}
+
+
+
+main section .row5 .CATEGORIES-img h4 a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: white;
+
+}
+
+main section .row5 .CATEGORIES-img h4 {
+    position: relative;
+    bottom: 150px;
+
+    background-color: var(--nav-color);
+    text-align: center;
+
+}
+
+main section .row5 .CATEGORIES-img .img1 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img1:hover {
+    transform: translatey(-20px);
+}
+
+
+main section .row5 .CATEGORIES-img .img2 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img2:hover {
+    transform: translatey(-20px);
+}
+
+main section .row5 .CATEGORIES-img .img3 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img3:hover {
+    transform: translatey(-20px);
+}
+
+
+main section .row5 .CATEGORIES-img .img4 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img4:hover {
+    transform: translatey(-20px);
+}
+
+
+main section .row5 .CATEGORIES-img .img5 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img5:hover {
+    transform: translatey(-20px);
+}
+
+
+main section .row5 .CATEGORIES-img .img6 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img6:hover {
+    transform: translatey(-20px);
+}
+
+
+main section .row5 .CATEGORIES-img .img7 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img7:hover {
+    transform: translatey(-20px);
+}
+
+
+main section .row5 .CATEGORIES-img .img8 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img8:hover {
+    transform: translatey(-20px);
+}
+
+
+main section .row5 .CATEGORIES-img .img9 {
+    transition: all 1s;
+}
+
+main section .row5 .CATEGORIES-img .img9:hover {
+    transform: translatey(-20px);
+}
+
+
+/* ======================================== */
+
+
+/* ---------- BRANDS ------------ */
+
+
+main section .row6 {
+    width: 100%;
+    padding-top: 100px;
+    margin-top: 100px;
+    background-color: rgb(224, 224, 224);
+
+}
+
+main section .row6 .brand-titel {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    color: var(--header-fontes);
+    position: relative;
+}
+
+main section .row6 .brand-titel::before {
+    content: "";
+    background-color: gray;
+    width: 160px;
+    height: 2px;
+    position: absolute;
+    bottom: 1.5px;
+    left: calc(50% - 80px);
+}
+
+main section .row6 .brand-titel::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    position: absolute;
+    bottom: 1px;
+    left: calc(60% - 160px);
+    background-color: var(--nav-color);
+}
+
+
+
+main section .row6 .brand-p {
+    text-align: center;
+    color: var(--font-color);
+    width: 70%;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 190px;
+    padding-bottom: 50px;
+}
+
+
+main section .row6 .brand-img {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 350px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+}
+
+/* =================================== */
+
+/* --------- CONTACT ---------- */
+
+
+main section .row7 {
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+main section .row7 .CONTACT-titel {
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    color: var(--header-fontes);
+    position: relative;
+    text-align: center;
+}
+
+main section .row7 .CONTACT-titel::before {
+    content: "";
+    background-color: gray;
+    width: 160px;
+    height: 2px;
+    position: absolute;
+    bottom: 1.5px;
+    left: calc(50% - 80px);
+
+}
+
+main section .row7 .CONTACT-titel::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    position: absolute;
+    bottom: 1px;
+    left: calc(60% - 160px);
+    background-color: var(--nav-color);
+
+}
+
+
+
+main section .row7 .CONTACT-p {
+    text-align: center;
+    color: var(--font-color);
+    width: 70%;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 190px;
+    padding-bottom: 50px;
+}
+
+
+main section .row7 .CONTACT-img {
+    width: 80%;
+    
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+main section .row7 .CONTACT-img {
+    padding-bottom: 60px;
+    
+}
+
+main section .row7 .CONTACT-img .CONTACT-form {
+
+    margin-left:60px ;
+    width: 45%;
+    border-top: 3px solid var(--nav-color);
+    border-bottom: 3px solid var(--nav-color);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px 5px rgb(212, 212, 212);
+ 
+
+}
+
+
+
+
+main section .row7 .CONTACT-img .CONTACT-form .form .container-form {
+padding: 30px 30px;
+display: flex;
+flex-wrap: wrap ;
+justify-content: space-between;
+}
+
+main section .row7 .CONTACT-img .CONTACT-form .form .container-form .name label {
+    font-family: Tahoma,;
+    font-weight:bold ;
+}
+
+main section .row7 .CONTACT-img .CONTACT-form .form .container-form .name input {
+    display: block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+
+
+main section .row7 .CONTACT-img .CONTACT-form .form .container-form .email label {
+    font-family: Tahoma,;
+    font-weight:bold ;
+}
+
+main section .row7 .CONTACT-img .CONTACT-form .form .container-form .email input {
+    display: block;
+    margin-top: 15px;
+    padding: 5px 10px;
+}
+
+
+
+
+main section .row7 .CONTACT-img .CONTACT-form .form .container-form .message label {
+    font-family: Tahoma,;
+    font-weight:bold ;
+
+
+} 
+
+main section .row7 .CONTACT-img .CONTACT-form .form .container-form .message textarea {
+width: 100%;
+    margin-top: 20px;
+    resize:vertical;
+}
+
+
+
+main section .row7 .CONTACT-img .CONTACT-form .form .btn {
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+
+
+main section .row7 .CONTACT-img .CONTACT-form .form .btn a {
+    color: white;
+    text-decoration: none;
+    background-color: var(--nav-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ========================================== */
+
+/* ------------ Our Social Networks ----------- */
+
+
+main section .Our-Social .our-titel {
+  
+    margin-left: 200px;
+}
+
+main section .Our-Social .our-titel h4 {
+    color: var(--header-fontes);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+main section .Our-Social {
+    padding-bottom: 80px; ;
+}
+
+main section .Our-Social .Social {
+    margin-left: 200px;
+    margin-top: 25px;
+    width: 20%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+main section .Our-Social .Social a {
+    border-radius: 50px;
+    background-color: var(--nav-color);
+    width: 40px;
+    height: 40px;
+text-align: center;
+font-size: 20px;
+justify-content: center;
+padding-top: 10px;
+
+    
+
+}
+
+
+
+main section .end {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* width: 50%; */
+    background-color: rgb(55, 81, 126);
+    padding: 0px 150px;
+    padding-top: 70px;
+    padding-bottom: 150px;color: rgb(255, 255, 255);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+main section .end .end2 p a {
+    color: var(--nav-color);
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
