@@ -1,27 +1,267 @@
+
+@media (max-width : 768px) {
+  * {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+body {
+    width: 100%;
+}
+
+header nav .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0px ;
+  padding-left: 160px;
+}
+header nav .row .menu-btn {
+  display: flex;
+}
+
+header nav .row .acces ul {
+  display: none;
+}
+/* ============================== */
+
+/* -------- section1 ------------ */
+
+main section .container {
+
+
+  
+
+}
+
+main section .container .row2 {
+  flex-direction: column-reverse;
+  margin: auto;
+padding-top: 150px;
+
+}
+
+main section .container .row2 .img  {
+margin-right: 200px;
+padding-bottom: 30px;
+
+}
+
+main section .container .row2 .caption {
+  width: 90%;
+  margin: auto;
+  padding: 0%;
+}
+
+main section .container .row2 .caption h1 {
+font-size: 30px;
+padding-left: 120px;
+}
+
+main section .container .row2 .caption p {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+main section .container .row2 .caption .about-btn {
+margin-left: 300px;
+}
+
+/* =============================================== */
+
+/* ---------- section2 ------------------ */
+
+
+
+
+main section .row3 .use {
+padding: 0%;
+
+}
+main section .row3 .use .img-card {
+
+margin: auto;
+padding-left: 30px;
+}
+main section .row3 .use .text-p {
+padding-right: 30px;
+}
+
+/* ==================================== */
+/* ----------- Section3 ----------- */
+
+
+main section .row4 .main-p .part-p {
+  padding: 0%;
+  margin: 0%;
+}
+
+main section .row4 .main-p .part-p .p1 {
+
+  margin: auto;
+  padding: 0%;
+  margin-left:30px ;
+ 
+}
+
+main section .row4 .main-p .part-p .p2 {
+  margin: auto;
+  padding: 0%;
+padding-left: 20px;
+padding-bottom: 10px;
+}
+
+/* ================================= */
+/* ----------------- Section4 ------------------ */
+
+main section .row5 .CATEGORIES-img {
+  margin: auto;
+  margin: auto;
+}
+
+/* =================================== */
+/* ------------ Section5 -------------- */
+
+main section .row6 {
+  margin-top: 600px;
+}
+
+main section .row6 .brand-p {
+  margin: auto;
+}
+
+main section .row6 .brand-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: auto;
+padding-left: 40px;
+
+}
+main section .row6 .brand-img .img1 img {
+width: 300px;
+margin-bottom: 30px;
+
+}
+main section .row6 .brand-img .img2 img {
+  width: 300px;
+  margin-bottom: 30px;
+  }
+  main section .row6 .brand-img .img3 img {
+    width: 300px;
+    margin-bottom: 30px;
+    }
+/* =========================================== */
+/* -------------- Section6 -------------------- */
+
+main section .row7 {
+
+margin: auto;
+padding: 0%;
+}
+
+main section .row7 .CONTACT-p {
+
+  margin: auto;
+}
+
+main section .row7 .CONTACT-img {
+  margin: 0%;
+  padding: 0%;
+  padding-left: 80px;
+}
+
+
+main section .row7 .CONTACT-img .people-img img{
+width: 330px;
+height: 490px;
+
+}
+
+
+main section .row7 .CONTACT-form .form .message{
+padding-top: 20px;
+
+}
+
+main section .row7 .CONTACT-form .form .btn {
+margin-bottom: 30px;
+}
+
+/* ========================== */
+/* -----------Our Social ----------- */
+
+main section .Our-Social {
+  margin: auto;
+margin-top: 150px;
+}
+
+main section .Our-Social .our-titel {
+  margin: auto;
+  padding-left: 100px;
+}
+
+main section .Our-Social .Social {
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  justify-content: space-between;
+  width: 250px;
+}
+
+main section .end {
+  margin: auto;
+  padding: 0%;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+
+}
+
+main section .end .end1 {
+  width: 350px;
+  margin-right: 70px;
+}
+
+main section .end .end2 {
+  width: 350px;
+}
+
+
+/* ---------- Thw End -------------- */
+}
+/* ============================================ */
+/* ============================================ */
+/* =========== End Of 768px ============== */
+
+
+
 @media (max-width : 400px) {
 
-  *{
-        padding: 0%;
-        margin: 0%;
-        background-color: blueviolet;
-        width: 200px;
-    }
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
 
   /* ----- NAV BAR --------- */
   header nav .row {
-    padding: 20px 0px;
+    padding: 15px 0px;
   }
 
   header nav .row .menu-btn {
     display: flex;
     flex-wrap: nowrap;
-   
+
   }
 
   header nav .row .logo {
     display: flex;
     flex-wrap: nowrap;
-padding-right: 200px;
+    padding-right: 100px;
+    padding-left: 50px;
   }
 
   header nav .row .acces ul {
@@ -33,42 +273,288 @@ padding-right: 200px;
   /* ----------- section1 --------------- */
 
 
-  main section .container {
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    background-color: brown;
-  }
+
 
   main section .container .row2 {
     flex-direction: column-reverse;
-    /* background-color: brown; */
-    /* max-width: 400px; */
-padding-right: 300px;
-margin: 0%;
-  }
-
-  main section .container .row2 img {
-width: 270px;
-height: 20px;
+    margin: auto;
+    padding: 0%;
     padding-top: 100px;
+    width: 100%;
   }
-  main section .container .row2 img .hero-img {
 
+   main section .container .row2 .img .hero-img {
+    width: fit-content;
+    padding-left: 150px;
+
+  }
+
+  main section .container .row2 .img .hero-img img {
+width: 300px;
+height: 300px;
   }
 
   main section .container .row2 .caption {
-    text-align: center;
+    margin: auto;
   }
   main section .container .row2 .caption h1 {
-    display: flex;
-    flex-wrap: wrap;
-    
+    margin: auto;
+    padding: 0%;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  main section .container .row2 .caption p {
+    margin: auto;
+    padding: 0%;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: large;
+  }
+
+  main section .container .row2 .caption .about-btn {
+margin: auto;
   }
 
 
 
+ /* ===================================== */
 
+ /*--------------- section 1 part 2 ------------ */
+/* ----------- img bar ---------------- */
+
+
+main .nav-img .hero-img {
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 40px 0px;
+ width: 200px;
+ margin: auto;
+}
+
+main .nav-img .hero-img div{
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+/* ================================== */
+/* -------------- Section2 ---------------- */
+
+main section .row3 {
+
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+main section .row3 .titel {
+  padding: 0%;
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+main section .row3 .use {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0%;
+}
+
+main section .row3 .use .img-card {
+  margin: 0%;
+  padding: 0%;
+}
+main section .row3 .use .img-card .img img {
+width: 370px;
+padding: 0%;
+margin: auto;
+padding-left: 30px;
+}
+
+main section .row3 .use .text-p {
+  margin: auto;
+  padding: 0%;
+  padding-top: 50px ;
+  text-align: center;
+  padding-bottom: 50px;
+}
+/* ====================================== */
+
+
+/* ------------ Section3 ----------------- */
+
+main section .row4 .main-p{
+  padding: 0%;
+  margin: auto;
+}
+
+main section .row4 .main-p .part-p {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0%;
+}
+
+main section .row4 .main-p .part-p .p1 {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+padding-left: 30px;
+padding-right: 20px;
+padding-bottom: 70px;
+}
+
+main section .row4 .main-p .part-p .p2 {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+padding-left: 30px;
+padding-right: 20px;
+}
+
+main section .row4 .main-p .part-p .p2 .a {
+  text-align: center;
+}
+
+
+/* ===================================== */
+
+
+/* -----------Section4 -------------------- */
+
+
+main section .row5 {
+  margin: auto;
+  padding: 0%;
+  padding-bottom: 100px;
+}
+
+main section .row5 .CATEGORIES-text h1::after {
+  left: calc(60% - 65px);
+}
+
+main section .row5 .CATEGORIES-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* =========================================== */
+
+
+/* ---------- Section5 ------------ */
+
+main section .row6 {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  padding-top: 50px;
+}
+
+main section .row6 .brand-titel::after {
+
+  left: calc(60% - 65px);
+
+}
+
+main section .row6 .brand-p {
+  margin: auto;
+}
+
+
+main section .row6 .brand-img {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  justify-content: center;
+}
+
+/* ====================================== */
+
+/* --------------- Section6 ----------------- */
+
+
+main section .row7 {
+  width: 100%;
+  margin: auto;
+  padding: 0%;
+  padding-top: 150px;
+}
+
+main section .row7 .CONTACT-titel::after {
+  left: calc(60% - 65px);
+}
+
+main section .row7 .CONTACT-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0%;
+}
+
+main section .row7 .CONTACT-img .people-img img {
+  height: 300px;
+  padding-bottom: 30px;
+}
+
+main section .row7 .CONTACT-img .CONTACT-form {
+  width: 100%;
+  margin: auto;
+  padding: 0%;
+}
+/* ========================================= */
+/* -------------- Our-Social --------------- */
+main section .Our-Social {
+  margin: auto;
+  padding: 0%;
+  padding-top: 50px;
+}
+
+main section .Our-Social .our-titel {
+  margin: auto;
+  padding: 0%;
+  padding-left: 40px;
+}
+
+main section .Our-Social .Social {
+  margin: auto;
+  padding: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 110px;
+}
+
+main section .end {
+  width: 100%;
+  margin: auto;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+main section .end .end1 {
+width: 100%;
+  margin: auto;
+  padding: 0%;
+  padding-left: 30px;
+  margin-top: 30px;
+margin-bottom: 50px;
+text-align: center;
+
+}
+
+
+main section .end .end2 {
+  width: 100%;
+    margin: auto;
+    padding: 0%;
+    padding-left: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
 
 
 }

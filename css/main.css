@@ -84,7 +84,7 @@ header nav .row .acces ul li:last-child a {
 /* -- Main -- */
 
 
-/* section 1 */
+/* ------------- Section1 ----------------- */
 main section .container {
     width: 100%;
     padding-bottom: 60px;
@@ -148,112 +148,51 @@ main section .container .row2 .caption .about-btn a {
     color: white;
 }
 
-main section .container .row2 .img {
-    width: 45%;
-
+main section .container .row2 .img .hero-img img {
+    height: 410px;
     padding-left: 50px;
     margin-left: 50px;
 }
 
 /* -------------- Img Bar ------------------ */
 
-main .nav-img .hero-img {
+main .nav-img{
+    
     background-color: rgba(226, 226, 226, 0.575);
+}
+
+main .nav-img .hero-img {
+    width: 80%;
+    margin: auto;
     text-align: center;
     padding: 20px 0px;
     margin-bottom: 90px;
-
-
+    display: flex;
+    align-items: center;
 
 
 }
-
-
-main .nav-img .hero-img .img1 {
+main .nav-img .hero-img div{
+    width: calc(100% / 6);
+  
+}
+main .nav-img .hero-img div img{
+    width: 50%;
     filter: grayscale(1);
-    padding-left: 60px;
     transition: all 0.5s;
-
-
-
-
-
 }
-
-main .nav-img .hero-img .img1:hover {
+main .nav-img .hero-img div img:hover{
     filter: none;
     scale: 1.2;
 
-
 }
 
-
-
-main .nav-img .hero-img .img2 {
-    filter: grayscale(1);
-    transition: all 0.5s;
-    padding-left: 60px;
-}
-
-main .nav-img .hero-img .img2:hover {
-    filter: none;
-    scale: 1.2;
-}
-
-
-main .nav-img .hero-img .img3 {
-    filter: grayscale(1);
-    transition: all 0.5s;
-    padding-left: 60px;
-    padding-bottom: 15px;
-}
-
-main .nav-img .hero-img .img3:hover {
-    scale: 1.2;
-    filter: none;
-}
-
-
-main .nav-img .hero-img .img4 {
-    filter: grayscale(1);
-    transition: all 0.5s;
-    padding-left: 60px;
-}
-
-main .nav-img .hero-img .img4:hover {
-    filter: none;
-    scale: 1.2;
-}
-
-main .nav-img .hero-img .img5 {
-    filter: grayscale(1);
-    transition: all 0.5s;
-    padding-left: 60px;
-    padding-bottom: 15px;
-}
-
-main .nav-img .hero-img .img5:hover {
-    filter: none;
-    scale: 1.2;
-}
-
-main .nav-img .hero-img .img6 {
-    filter: grayscale(1);
-    transition: all 0.5s;
-    padding-left: 60px;
-    padding-bottom: 10px;
-}
-
-main .nav-img .hero-img .img6:hover {
-    filter: none;
-    scale: 1.2;
-}
 
 /* =========================================== */
 
 
 /* ------------- HOW TO USE ?--------------- */
-
+/* ------- Section2 ------------- */
 main section .row3 {
     width: 100%;
     margin-bottom: 60px;
@@ -338,7 +277,7 @@ main section .row3 .use .text-p .text a {
 /* ======================================== */
 
 /* ----------- WHO ARE WE------------- */
-
+/* ------- Section3 ------------- */
 
 main section .row4 .main-who .who {
     text-align: center;
@@ -429,9 +368,10 @@ main section .row4 .part-p .a a {
 /* ===================================== */
 
 /* ------------ CATEGORIES ----------------- */
+/* ------- Section4 ------------- */
 
 main section .row5 {
-    padding-bottom: 850px;
+    padding-bottom: 100px;
 }
 
 main section .row5 .CATEGORIES-text {
@@ -480,8 +420,6 @@ main section .row5 .CATEGORIES-img {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-
 
 }
 
@@ -499,7 +437,6 @@ main section .row5 .CATEGORIES-img h4 a {
 main section .row5 .CATEGORIES-img h4 {
     position: relative;
     bottom: 150px;
-
     background-color: var(--nav-color);
     text-align: center;
 
@@ -589,12 +526,11 @@ main section .row5 .CATEGORIES-img .img9:hover {
 
 
 /* ---------- BRANDS ------------ */
-
+/* ------- Section5 ------------- */
 
 main section .row6 {
     width: 100%;
     padding-top: 100px;
-    margin-top: 100px;
     background-color: rgb(224, 224, 224);
 
 }
@@ -651,9 +587,20 @@ main section .row6 .brand-img {
     margin-bottom: 0px;
 }
 
+main section .row6 .brand-img .img1 img{
+    width: 183px;
+}
+main section .row6 .brand-img .img2 img {
+    width: 183px;
+}
+main section .row6 .brand-img .img3 img {
+    width: 183px;
+}
+
 /* =================================== */
 
 /* --------- CONTACT ---------- */
+/* ------- Section6 ------------- */
 
 
 main section .row7 {
@@ -709,17 +656,19 @@ main section .row7 .CONTACT-p {
 
 main section .row7 .CONTACT-img {
     width: 80%;
-    
+    padding-bottom: 60px;
     margin-left: 200px;
     display: flex;
     flex-wrap: nowrap;
 }
 
-
-main section .row7 .CONTACT-img {
-    padding-bottom: 60px;
-    
+main section .row7 .CONTACT-img .people-img img {
+    width: 400px;
+    height: 405px;
 }
+
+
+
 
 main section .row7 .CONTACT-img .CONTACT-form {
 
